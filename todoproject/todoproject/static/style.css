@@ -1,0 +1,17 @@
+.banner{
+   background-color:yellow;
+   width:100%;
+   height:200px;
+   margin-bottom:50px;
+
+}
+
+.banner-txt{
+top:100%;
+left:50%;
+padding:60px;
+
+text-align: center;
+
+}
+
