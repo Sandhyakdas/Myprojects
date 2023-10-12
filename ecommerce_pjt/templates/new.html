@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!--    <img class="my_image my_image_padding" src="{% static 'img/bannner.png' %}" style="width:1250px;" alt=" " >-->
+
+<!--<div class="container">-->
+<!--    <div class="row max_auto">-->
+<!--        {% for product in products %}-->
+<!--        <div class="my_bottom_margin col-9 col-sm-12 col-md-4 xol-lg-4">-->
+<!--          <div class="card text-center" style="min-width:18rem;">-->
+<!--              <a href ="{{product.get_url}}"><img class="card-img-top my_image" src="{{product.image.url}}" alt="{{product.name}}"></a>-->
+<!--          <div class="card-body">-->
+<!--               <h4>{{product.name}}</h4>-->
+<!--               <p>{{product.price}}</p>-->
+<!--           </div>-->
+
+<!--          </div>-->
+<!--        </div>-->
+<!--        {% end-for %}-->
+<!--    </div>-->
+<!--</div>-->
+<!--{% end-block %}-->
+
+product.html
+
+<!--    div class="container" >-->
+
+<!--   <div class="row max_auto">-->
+<!--        {% for product in products %}-->
+<!--        <div class="my_bottom_margin col-9 col-sm-12 col-md-4 xol-lg-4">-->
+<!--</div>-->
+<!--<br>--ase
+
+base.html
+<!--&lt;!&ndash;    <meta name="viewport" content="width=device-width, initial-scale=1">&ndash;&gt;-->
+<!--&lt;!&ndash;    <link rel="stylesheet" href="{% static 'css/custom.css' %}">&ndash;&gt;-->
+<!--&lt;!&ndash;    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">&ndash;&gt;-->
+<!--&lt;!&ndash;    <script src="https://kit.fontawesome.com/60b6397871.js" crossorigin="anonymous"></script>&ndash;&gt;-->
+<!--&lt;!&ndash;    <meta name="description" content="{% block description %}{% endblock %}">&ndash;&gt;-->
+
+<!--</head>-->
+<!--<body>-->
+<!--<div class="container">-->
+
+<!--{% include 'header.html' %}-->
+<!--{% include 'nav.html' %}-->
+<!--{% block content %}-->
+<!--{% endblock %}-->
+<!--</div>-->
+
+<!--{% include 'footer.html' %}-->
+<!--&lt;!&ndash;    <script src="{% static 'js/popper.min.js' %}" ></script>&ndash;&gt;-->
+<!--&lt;!&ndash;    <script src="{% static 'js/bootstrap.min.js' %}" ></script>&ndash;&gt;-->
+
+nnav bar
+ {% if item_count > 0}-->
+
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" href="{% url 'cart:cart_detail' %}">({{item_count}}})<i class="fa-thin fa-cart-shopping"></i></a>-->
+<!--        </li>-->
